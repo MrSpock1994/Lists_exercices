@@ -6,11 +6,11 @@ Write a program that reads a 10-character vector, and tells you how many consona
 
 
 word = str(input("Input the word: "))
-list_vogals = ['a', 'e', 'i', 'o', 'u']
+list_vowels = ['a', 'e', 'i', 'o', 'u']
 consonants = []
 
 for c in range(0, len(word)):
-    if word[c] not in list_vogals:
+    if word[c] not in list_vowels:
         consonants.append(word[c])
 
 print(f"We have {len(consonants)} consonant in the word {word}\n")
